@@ -27,7 +27,7 @@ jobs:
 
       - name: Run script
         run: |
-          python run_waste.py
+          python .github/workflows/run_waste.py
 
       - name: Commit and push changes
         run: |
